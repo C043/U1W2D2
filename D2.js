@@ -176,8 +176,6 @@ if (val < 5) {
   console.log("Uguale a 10 o maggiore");
 }
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -194,13 +192,15 @@ me.city = "Toronto";
 
 console.log(me.name, "vive a", me.city);
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 12");
+
+delete me.lastName;
+
+console.log("Il cognome di", me.name, "è:", me.lastName);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
