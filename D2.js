@@ -220,7 +220,19 @@ console.log(
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 14");
+
+const numeri = [];
+let numeroDaAggiungere = 0;
+console.log("Array:", numeri);
+
+// Ho usato for anche se non lo abbiamo fatto perché lo ricordavo e sono andato a cercarlo su MDN
+for (let i = 1; i < 11; i++) {
+  numeroDaAggiungere++;
+  numeri.push(numeroDaAggiungere);
+}
+
+console.log("Array:", numeri);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
