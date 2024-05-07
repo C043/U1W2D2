@@ -139,7 +139,15 @@ if (int1 <= int2 && int2 <= int3) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 8");
+
+const valoreFornito = 2;
+
+if (typeof valoreFornito === "number") {
+  console.log("Il valore fornito è un numero!");
+} else {
+  console.log("Il valore fornito non è un numero!");
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
