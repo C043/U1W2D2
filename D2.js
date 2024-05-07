@@ -182,11 +182,17 @@ if (val < 5) {
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
 
+console.log("ESERCIZIO 11");
+
 const me = {
   name: "John",
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
+
+me.city = "Toronto";
+
+console.log(me.name, "vive a", me.city);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
