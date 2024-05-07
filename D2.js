@@ -2,7 +2,16 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const numero1 = 23;
+const numero2 = 50;
+
+if (numero2 > numero1) {
+  console.log("Il numero più grande fra", numero1, "e", numero2, "è:", numero2);
+} else if (numero1 > numero2) {
+  console.log("Il numero più grande fra", numero1, "e", numero2, "è:", numero1);
+} else {
+  console.log("Il numero", numero1, "e il numero", numero2, "sono uguali!");
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -76,10 +85,10 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
