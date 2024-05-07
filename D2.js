@@ -119,7 +119,21 @@ if (totalBlackFriday > 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 7");
+
+const int1 = 1;
+const int2 = 2;
+const int3 = 3;
+
+if (int1 <= int2 && int2 <= int3) {
+  console.log("Le tre variabili in ordine sono:", int3, int2, int1);
+} else if (int1 <= int2 && int2 >= int3) {
+  console.log("Le tre variabili in ordine sono:", int2, int1, int3);
+} else if (int1 >= int2 && int2 <= int3) {
+  console.log("Le tre variabili in ordine sono:", int3, int1, int2);
+} else if (int1 >= int2 && int2 >= int3) {
+  console.log("Le tre variabili in ordine sono:", int1, int2, int3);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
