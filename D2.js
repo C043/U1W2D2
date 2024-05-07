@@ -75,7 +75,7 @@ if (
 
 console.log("ESERCIZIO 5");
 
-let totalShoppingCart = 23;
+let totalShoppingCart = 100;
 
 if (totalShoppingCart > 50) {
   console.log("Complimenti, la spedizione del tuo ordine è gratuita!");
@@ -94,7 +94,24 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 6");
+
+// calcolo lo sconto del 20 percento
+scontoBlackFriday = (totalShoppingCart * 20) / 100;
+totalBlackFriday = totalShoppingCart - scontoBlackFriday;
+
+// capisco se il cliente ha diritto alla spedizione gratuita
+if (totalBlackFriday > 50) {
+  console.log("Complimenti, la spedizione del tuo ordine è gratuita!");
+  console.log("L'ammontare totale del tuo ordine è:", totalBlackFriday, "€");
+} else {
+  console.log("Il costo della spedizione del tuo ordine è: 10 €");
+  console.log(
+    "L'ammontare totale del tuo ordine è:",
+    totalBlackFriday + 10,
+    "€"
+  );
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
