@@ -24,12 +24,17 @@ console.log("ESERCIZIO 2");
 if (numero1 !== 5) {
   console.log("not equal");
 }
+
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
+console.log("ESERCIZIO 3");
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+if (numero2 % 5 === 0) {
+  console.log("Il numero", numero2, "è divisibile per 5");
+} else {
+  console.log("Il numero", numero2, "non è divisibile per 5");
+}
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
