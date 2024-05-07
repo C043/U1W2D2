@@ -153,7 +153,13 @@ if (typeof valoreFornito === "number") {
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 9");
+
+if (numero2 % 2 === 0) {
+  console.log("Il numero", numero2, "è pari.");
+} else {
+  console.log("Il numero", numero2, "è dispari.");
+}
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
