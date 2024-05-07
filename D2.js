@@ -206,7 +206,15 @@ console.log("Il cognome di", me.name, "è:", me.lastName);
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("ESERCIZIO 13");
+
+me.skills.pop();
+console.log(
+  "L'ultimo oggetto della proprietà skills di",
+  me.name,
+  "è:",
+  me.skills[me.skills.length - 1]
+);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
